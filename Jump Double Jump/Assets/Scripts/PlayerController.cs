@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
 
     public IntData playerJumpCount;
     private int jumpCount;
-    
+
     private void Start()
     {
         moveSpeed = normalSpeed;
@@ -27,24 +27,24 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         {
-            var vInput = Input.GetAxis("Vertical")*moveSpeed.value;
-            movement.Set(vInput,yVar,0);
+            var vInput = Input.GetAxis("Vertical") * moveSpeed.value;
+            movement.Set(vInput, yVar, 0);
         }
-        
+
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             moveSpeed = fastSpeed;
         }
-        
+
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             moveSpeed = normalSpeed;
         }
-        
-        var hInput = Input.GetAxis("Horizontal")* Time.deltaTime*rotateSpeed;
-        transform.Rotate(0,hInput,0);
 
-        yVar += gravity*Time.deltaTime;
+        var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed;
+        transform.Rotate(0, hInput, 0);
+
+        yVar += gravity * Time.deltaTime;
 
         if (controller.isGrounded && movement.y < 0)
         {
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
             jumpCount = 0;
         }
 
-        if (Input.GetButtonDown("Jump") && jumpCount< playerJumpCount.value)
+        if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount.value)
         {
             yVar = jumpForce;
             jumpCount++;
@@ -60,6 +60,14 @@ public class PlayerController : MonoBehaviour
 
         movement = transform.TransformDirection(movement);
         controller.Move(movement * Time.deltaTime);
-        
+
+        if (Input.GetButton("Fire2"))
+        {
+            Camera.main.orthographic = true;
+        }
+        else
+        {
+            Camera.main.orthographic = false;
+        }
     }
 }
