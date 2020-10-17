@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class ApplyForce : MonoBehaviour
 {
-   public float velocity = 10f;
-   public Vector3 aim;
+   private Rigidbody rBody;
+   public float force = 30f;
 
-   private void FixedUpdate()
+   void Start()
    {
-      transform.Translate(aim);
+      rBody = GetComponent<Rigidbody>();
+      var forceDirection = new Vector3(force,0,0);
+      rBody.AddRelativeForce(forceDirection);
    }
 }

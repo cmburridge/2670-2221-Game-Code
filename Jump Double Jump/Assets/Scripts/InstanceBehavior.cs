@@ -6,12 +6,12 @@ using UnityEngine;
 public class InstanceBehavior : MonoBehaviour
 {
    public GameObject prefab;
-   public Vector3 rotationDirection;
+   
    
    public void Instance()
    {
       var location = transform.position;
-      var newObj = Instantiate(prefab, location,Quaternion.Euler(rotationDirection));
+      var newObj = Instantiate(prefab, location,Quaternion.identity);
    }
 
    private void Update()
