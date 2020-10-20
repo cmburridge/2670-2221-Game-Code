@@ -6,8 +6,7 @@ using UnityEngine;
 public class ApplyForce : MonoBehaviour
 {
    private Rigidbody rBody;
-   public float force = 30f;
-   public Transform playerDirection;
+   public float force = -30f;
    void Start()
    {
       rBody = GetComponent<Rigidbody>();
@@ -15,6 +14,6 @@ public class ApplyForce : MonoBehaviour
 
    private void FixedUpdate()
    {
-      rBody.AddForce(playerDirection.forward.normalized * force);
+      rBody.AddForce(transform.forward * force);
    }
 }
