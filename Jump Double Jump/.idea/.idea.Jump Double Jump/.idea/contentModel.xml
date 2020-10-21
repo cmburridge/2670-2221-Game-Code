@@ -11,8 +11,10 @@
           <e p="FloatBehaviors.cs" t="Include" />
           <e p="InstanceBehavior.cs" t="Include" />
           <e p="IntBehaviors.cs" t="Include" />
+          <e p="LookAtBehavior.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
+          <e p="Vector3Behavior.cs" t="Include" />
         </e>
       </e>
       <e p="Jump Double Jump.sln" t="IncludeFlat" />
