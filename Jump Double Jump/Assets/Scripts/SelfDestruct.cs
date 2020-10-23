@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class SelfDestruct : MonoBehaviour
 {
-    private void OnTriggerEnter()
+    private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
     }
