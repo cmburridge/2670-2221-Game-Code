@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: MovesSpeed
+  m_Name: CurrentSPD
   m_EditorClassIdentifier: Assembly-CSharp::FloatData
-  value: 10
+  value: 15

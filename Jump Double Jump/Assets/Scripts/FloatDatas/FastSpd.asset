@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: PlayerJumpCount
-  m_EditorClassIdentifier: Assembly-CSharp::IntData
-  value: 2
+  m_Name: FastSpd
+  m_EditorClassIdentifier: Assembly-CSharp::FloatData
+  value: 40
