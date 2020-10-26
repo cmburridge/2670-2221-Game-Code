@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: FastSpd
   m_EditorClassIdentifier: Assembly-CSharp::FloatData
-  value: 40
+  value: 15

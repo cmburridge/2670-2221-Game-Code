@@ -24,8 +24,11 @@ public class DamageBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        currentHealth.value -= damageAmount.value;
-        
+        var otherTag = other.CompareTag("Bullet");
+        if (otherTag)
+        {
+          currentHealth.value -= damageAmount.value;  
+        }
     }
 
     private void Update()

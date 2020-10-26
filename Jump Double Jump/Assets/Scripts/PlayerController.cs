@@ -31,16 +31,6 @@ public class PlayerController : MonoBehaviour
             movement.Set(vInput, yVar, 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            moveSpeed = fastSpeed;
-        }
-
-        if (Input.GetKeyUp(KeyCode.LeftShift))
-        {
-            moveSpeed = normalSpeed;
-        }
-
         var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed;
         transform.Rotate(0, hInput, 0);
 
@@ -50,6 +40,12 @@ public class PlayerController : MonoBehaviour
         {
             yVar = -1f;
             jumpCount = 0;
+            moveSpeed = fastSpeed;
+        }
+        else
+        {
+            moveSpeed = normalSpeed;
+            transform.parent = null;
         }
 
         if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount.value)
