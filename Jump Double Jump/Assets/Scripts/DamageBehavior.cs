@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Button = UnityEngine.UIElements.Button;
 using Image = UnityEngine.UIElements.Image;
 using Slider = UnityEngine.UIElements.Slider;
 
@@ -13,6 +14,7 @@ public class DamageBehavior : MonoBehaviour
     public FloatData maxHealth;
     public FloatData damageAmount;
     public UnityEngine.UI.Slider healthBar;
+    public GameObject restartButton;
     
     void Start()
     {
@@ -28,9 +30,10 @@ public class DamageBehavior : MonoBehaviour
 
     private void Update()
     {
-        if (currentHealth.value == 0)
+        if (currentHealth.value <= 0)
         {
             Destroy(gameObject);
+            restartButton.SetActive(true);
         }  
        
         healthBar.value = currentHealth.value;
