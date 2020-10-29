@@ -2,114 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.idea.Jump Double Jump/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.idea.Jump Double Jump/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.idea.Jump Double Jump/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.idea.Jump Double Jump/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.idea.Jump Double Jump/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.idea.Jump Double Jump/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.idea.Jump Double Jump/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/.idea/.idea.Jump Double Jump/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Anims.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Anims/Platform 1 Controller.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Anims/Platform 1 Controller.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Anims/Platform1Movement.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Anims/Platform1Movement.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Images/valentine-heart-md.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Images/valentine-heart-md.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/Orange.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/Orange.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/PlatGround.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/PlatGround.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/Platform.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/Platform.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/valentine-heart-md.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Material/valentine-heart-md.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Prefab/Bullet.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Prefab/Bullet.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Prefab/Enemy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Prefab/Enemy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Prefab/PlatformHolder.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Prefab/PlatformHolder.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/ProBuilder Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/ProBuilder Data/Default Color Palette.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/ProBuilder Data/Default Color Palette.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/ProBuilder Data/Default Material Palette.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/ProBuilder Data/Default Material Palette.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scenes/SampleScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scenes/SampleScene/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scenes/SampleScene/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scenes/Scene 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scenes/Scene 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/ApplyForce.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/ApplyForce.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/AtatchOnTrigger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/AtatchOnTrigger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/DamageBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/DamageBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatBehaviors.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatBehaviors.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/CurrentHP.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/CurrentHP.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/CurrentSPD.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/CurrentSPD.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/EnemyDMG.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/EnemyDMG.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/FastSpd.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/FastSpd.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/MaxHP.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/MaxHP.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/MoveSpd.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/FloatDatas/MoveSpd.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/InstanceBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/InstanceBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/IntBehaviors.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/IntBehaviors.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/IntDatas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/IntDatas/PlayerJumpCn.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/IntDatas/PlayerJumpCn.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/LookAtBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/LookAtBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/RestartBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/RestartBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/SelfDestruct.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/SelfDestruct.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/Vector3Behavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/Vector3Behavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Assets/Scripts/Vector3Datas.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/PresetManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/VFXManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Jump Double Jump/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelLayouts.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelLayouts.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,12 +16,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603921433906</updated>
-      <workItem from="1603921448173" duration="643000" />
+      <workItem from="1603921448173" duration="1854000" />
     </task>
     <servers />
   </component>
