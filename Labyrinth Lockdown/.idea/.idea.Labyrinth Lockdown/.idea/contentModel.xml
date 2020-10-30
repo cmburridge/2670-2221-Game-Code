@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\cmbur\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -6,6 +6,9 @@
     <e p="E:\Unity\Jump\ DoubleJump\Labyrinth Lockdown" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Material" t="Include">
+          <e p="AlwaysVisible.shader" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="ActivateBehavior.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />

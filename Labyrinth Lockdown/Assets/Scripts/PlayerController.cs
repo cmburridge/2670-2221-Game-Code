@@ -26,8 +26,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        {
-            var vInput = Input.GetAxis("Vertical") * moveSpeed.value;
+        { 
+            var vInput = Input.GetAxis("Vertical") * moveSpeed.value; 
             movement.Set(vInput, yVar, 0);
         }
 
