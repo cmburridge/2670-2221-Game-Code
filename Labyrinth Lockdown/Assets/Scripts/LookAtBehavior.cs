@@ -5,10 +5,31 @@ using UnityEngine;
 
 public class LookAtBehavior : MonoBehaviour
 {
-   public Transform lookedAtObj;
+   public float speed = 3f;
+   public Transform objLocation;
+   public bool enraged = false;
+   public Animator enemyAnimate;
+   public void LocatePlayer()
+   {
+      enraged = true;
+   }
+
+   public void LosePlayer()
+   {
+      enraged = false;
+   }
 
    private void FixedUpdate()
    {
-      transform.LookAt(lookedAtObj);
+      if (enraged == true)
+      {
+         transform.LookAt(objLocation);
+         transform.Translate(0,0,speed * Time.fixedDeltaTime);
+         enemyAnimate.enabled = false;
+      }
+      else
+      {
+         enemyAnimate.enabled = true;
+      }
    }
 }

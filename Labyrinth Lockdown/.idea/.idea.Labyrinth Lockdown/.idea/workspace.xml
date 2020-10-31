@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Material/Cells.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Material/Cells.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Entrance (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Entrance (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Exit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Exit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Power Up.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Power Up.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Wander.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Wander.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelLayouts.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelLayouts.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +25,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Behavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Exit.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,6 +38,9 @@
         <option value="$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
       </list>
     </option>
   </component>
@@ -84,7 +94,8 @@
       <workItem from="1604021933907" duration="1865000" />
       <workItem from="1604029271997" duration="1476000" />
       <workItem from="1604097037433" duration="591000" />
-      <workItem from="1604101265238" duration="2777000" />
+      <workItem from="1604101265238" duration="3441000" />
+      <workItem from="1604179214421" duration="2272000" />
     </task>
     <servers />
   </component>

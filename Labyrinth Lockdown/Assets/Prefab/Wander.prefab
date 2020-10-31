@@ -122,13 +122,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920882173047468976}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000056624407}
-  m_LocalPosition: {x: -151.72539, y: 3.7375455, z: 47.81278}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0.00000028088027}
+  m_LocalPosition: {x: -104.728546, y: 65.327415, z: -95.16205}
   m_LocalScale: {x: 1, y: 2.381167, z: 1}
   m_Children:
   - {fileID: 2137288991275898873}
   - {fileID: 6218349428254136014}
   - {fileID: 4252241275973403039}
+  - {fileID: 8444020789474873234}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -179.99998, z: 0}
@@ -442,7 +443,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d98417be98f59f43b70b7e42b3c6716, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookedAtObj: {fileID: 0}
+  speed: 10
+  objLocation: {fileID: 0}
+  enraged: 0
+  enemyAnimate: {fileID: 0}
 --- !u!1 &944103308649097126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,3 +1889,89 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &5806749732689343763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8444020789474873234}
+  - component: {fileID: 973275368871463428}
+  - component: {fileID: 1916948498007312158}
+  m_Layer: 0
+  m_Name: VisionBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8444020789474873234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806749732689343763}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.00000056624407}
+  m_LocalPosition: {x: 0.50904804, y: 0.5252891, z: -0.38722286}
+  m_LocalScale: {x: 7.3971, y: 3.106502, z: 7.3971}
+  m_Children: []
+  m_Father: {fileID: 2355583352497939152}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &973275368871463428
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806749732689343763}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.7189541, y: 0.9319873, z: 1.5720994}
+  m_Center: {x: 0, y: 0.30546716, z: -0.4527855}
+--- !u!114 &1916948498007312158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5806749732689343763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646ddc7ea9eef554f94be4a9fc7841b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4401421435739819099}
+        m_MethodName: LocatePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  triggerExitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4401421435739819099}
+        m_MethodName: LosePlayer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delayTime: 0
