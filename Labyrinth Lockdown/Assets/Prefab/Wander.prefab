@@ -1900,9 +1900,9 @@ GameObject:
   - component: {fileID: 8444020789474873234}
   - component: {fileID: 973275368871463428}
   - component: {fileID: 1916948498007312158}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: VisionBox
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1974,4 +1974,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  delayTime: 0
+  delayTime: 0.5

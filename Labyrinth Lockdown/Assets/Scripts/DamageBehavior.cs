@@ -35,7 +35,7 @@ public class DamageBehavior : MonoBehaviour
     {
         if (currentHealth.value <= 0)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             restartButton.SetActive(true);
         }  
        
