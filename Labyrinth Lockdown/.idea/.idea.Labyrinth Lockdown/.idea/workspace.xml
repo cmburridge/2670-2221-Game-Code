@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Patrol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Patrol.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Wander.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Wander.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Behavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" root0="FORCE_HIGHLIGHTING" />
@@ -35,6 +38,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +94,8 @@
       <workItem from="1604097037433" duration="591000" />
       <workItem from="1604101265238" duration="3441000" />
       <workItem from="1604179214421" duration="2272000" />
-      <workItem from="1604330903990" duration="682000" />
+      <workItem from="1604330903990" duration="1385000" />
+      <workItem from="1604349945643" duration="1427000" />
     </task>
     <servers />
   </component>
