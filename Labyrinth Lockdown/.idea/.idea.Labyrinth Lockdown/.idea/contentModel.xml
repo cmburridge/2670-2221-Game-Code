@@ -21,7 +21,6 @@
           <e p="PlayerController.cs" t="Include" />
           <e p="RestartBehavior.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
-          <e p="TransformBehavior.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
           <e p="Vector3Behavior.cs" t="Include" />
         </e>
