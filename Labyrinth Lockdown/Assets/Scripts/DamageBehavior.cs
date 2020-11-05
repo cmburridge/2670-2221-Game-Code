@@ -13,13 +13,11 @@ public class DamageBehavior : MonoBehaviour
     public FloatData currentHealth;
     public FloatData maxHealth;
     public FloatData damageAmount;
-    public UnityEngine.UI.Slider healthBar;
-    public GameObject restartButton;
+    
     
     void Start()
     {
         currentHealth.value = maxHealth.value;
-        healthBar.value = maxHealth.value;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -36,9 +34,7 @@ public class DamageBehavior : MonoBehaviour
         if (currentHealth.value <= 0)
         {
             gameObject.SetActive(false);
-            restartButton.SetActive(true);
         }  
-       
-        healthBar.value = currentHealth.value;
+        
     }
 }
