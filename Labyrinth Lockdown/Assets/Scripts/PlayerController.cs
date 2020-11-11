@@ -57,14 +57,5 @@ public class PlayerController : MonoBehaviour
 
         movement = transform.TransformDirection(movement);
         controller.Move(movement * Time.deltaTime);
-
-        if (Input.GetButton("Fire2"))
-        {
-            Camera.main.orthographic = true;
-        }
-        else
-        {
-            Camera.main.orthographic = false;
-        }
     }
 }
