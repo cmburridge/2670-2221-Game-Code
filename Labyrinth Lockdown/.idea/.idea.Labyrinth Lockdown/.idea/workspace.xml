@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +21,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Behavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.2.3/Runtime/Core/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Exit.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ValueEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -46,7 +40,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Transform Behavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
@@ -54,6 +47,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ValueBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ValueEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers.cs" />
       </list>
     </option>
   </component>
@@ -114,6 +111,7 @@
       <workItem from="1604366389372" duration="616000" />
       <workItem from="1604520566130" duration="4009000" />
       <workItem from="1605071871906" duration="3341000" />
+      <workItem from="1605155796317" duration="763000" />
     </task>
     <servers />
   </component>

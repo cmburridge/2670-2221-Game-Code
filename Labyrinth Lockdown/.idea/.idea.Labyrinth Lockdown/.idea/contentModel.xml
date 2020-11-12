@@ -22,6 +22,8 @@
           <e p="SceneManagerBehavior.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />
+          <e p="Triggers.cs" t="Include" />
+          <e p="ValueEvents.cs" t="Include" />
           <e p="Vector3Behavior.cs" t="Include" />
         </e>
       </e>
