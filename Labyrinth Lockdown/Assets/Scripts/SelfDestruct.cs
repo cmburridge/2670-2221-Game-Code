@@ -6,8 +6,17 @@ using UnityEngine;
 
 public class SelfDestruct : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    public float delayTime = 1f;
+    private WaitForSeconds waitObj;
+
+    private void Start()
     {
+        waitObj = new WaitForSeconds(delayTime);
+    }
+    
+    private IEnumerator OnTriggerEnter(Collider other)
+    {
+        yield return waitObj;
         Destroy(gameObject);
     }
 }

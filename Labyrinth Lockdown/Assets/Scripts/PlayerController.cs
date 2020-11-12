@@ -7,12 +7,13 @@ public class PlayerController : MonoBehaviour
     private CharacterController controller;
     private Vector3 movement;
 
-    public float rotateSpeed = 5f, gravity = -9.81f, jumpForce = 10f;
+    public float rotateSpeed = 5f, gravity = -9.81f;
     private float yVar;
 
-    public FloatData moveSpeed, fastSpeed;
+    public FloatData moveSpeed;
     public FloatData normalSpeed;
-
+    public FloatData jumpHeight;
+        
     public FloatData MoveSpeed => moveSpeed;
 
     public IntData playerJumpCount;
@@ -20,7 +21,8 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        moveSpeed = normalSpeed;
+        moveSpeed.value = normalSpeed.value;
+        jumpHeight.value = normalSpeed.value;
         controller = GetComponent<CharacterController>();
     }
 
@@ -40,18 +42,16 @@ public class PlayerController : MonoBehaviour
         {
             yVar = -1f;
             jumpCount = 0;
-            moveSpeed = fastSpeed;
         }
         else
         {
-            moveSpeed = normalSpeed;
             transform.parent = null;
             jumpCount = 1;
         }
 
         if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount.value)
         {
-            yVar = jumpForce;
+            yVar = jumpHeight.value;
             jumpCount++;
         }
 
