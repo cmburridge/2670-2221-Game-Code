@@ -19,6 +19,7 @@
           <e p="IntBehaviors.cs" t="Include" />
           <e p="LookAtBehavior.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="ResetStat.cs" t="Include" />
           <e p="SceneManagerBehavior.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
           <e p="TriggerEventBehavior.cs" t="Include" />

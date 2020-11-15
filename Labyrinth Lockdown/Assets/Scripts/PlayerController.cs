@@ -21,21 +21,13 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        moveSpeed.value = normalSpeed.value;
-        jumpHeight.value = normalSpeed.value;
         controller = GetComponent<CharacterController>();
     }
 
     private void Update()
     {
-        { 
-            var vInput = Input.GetAxis("Vertical") * moveSpeed.value; 
-            movement.Set(vInput, yVar, 0);
-        }
-
-        var hInput = Input.GetAxis("Horizontal") * Time.deltaTime * rotateSpeed;
-        transform.Rotate(0, hInput, 0);
-
+        movement = new Vector3(Input.GetAxis("Vertical")* -moveSpeed.value, yVar, Input.GetAxis("Horizontal")* moveSpeed.value);
+        
         yVar += gravity * Time.deltaTime;
 
         if (controller.isGrounded && movement.y < 0)

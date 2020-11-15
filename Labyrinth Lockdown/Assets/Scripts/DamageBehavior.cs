@@ -13,11 +13,12 @@ public class DamageBehavior : MonoBehaviour
     public FloatData currentHealth;
     public FloatData maxHealth;
     public FloatData damageAmount;
-    
-    
+    public UnityEngine.UI.Image healthBar;
+
     void Start()
     {
         currentHealth.value = maxHealth.value;
+        healthBar.fillAmount = maxHealth.value;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -25,7 +26,8 @@ public class DamageBehavior : MonoBehaviour
         var otherTag = other.CompareTag("Bullet");
         if (otherTag)
         {
-          currentHealth.value -= damageAmount.value;  
+          currentHealth.value -= damageAmount.value;
+          healthBar.fillAmount -= damageAmount.value;
         }
     }
 
@@ -34,7 +36,6 @@ public class DamageBehavior : MonoBehaviour
         if (currentHealth.value <= 0)
         {
             gameObject.SetActive(false);
-        }  
-        
+        }
     }
 }
