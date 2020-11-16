@@ -14,11 +14,15 @@ public class DamageBehavior : MonoBehaviour
     public FloatData maxHealth;
     public FloatData damageAmount;
     public UnityEngine.UI.Image healthBar;
+    public GameObject prefab;
 
-    void Start()
+    private void Start()
     {
-        currentHealth.value = maxHealth.value;
-        healthBar.fillAmount = maxHealth.value;
+        if (currentHealth.value <= 0f)
+        {
+            currentHealth.value = maxHealth.value;
+        }
+        healthBar.fillAmount = currentHealth.value;
     }
 
     private void OnTriggerEnter(Collider other)

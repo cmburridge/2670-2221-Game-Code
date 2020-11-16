@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Power Up.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Power Up.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/End.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
@@ -15,11 +15,11 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/CurrentSPD.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/CurrentSPD.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/EnemyDMG.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/EnemyDMG.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/JumpHeight.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/JumpHeight.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/MaxHP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/MaxHP.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/MoveSpd.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/MoveSpd.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntDatas/PlayerJumpCn.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntDatas/PlayerJumpCn.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +48,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Exit.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,14 +61,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RestartBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ValueBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ValueEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
       </list>
     </option>
@@ -133,6 +135,7 @@
       <workItem from="1605220064567" duration="3525000" />
       <workItem from="1605321899433" duration="599000" />
       <workItem from="1605398503175" duration="6052000" />
+      <workItem from="1605484056920" duration="6303000" />
     </task>
     <servers />
   </component>

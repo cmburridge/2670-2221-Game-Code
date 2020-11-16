@@ -8,6 +8,7 @@ public class SelfDestruct : MonoBehaviour
 {
     public float delayTime = 1f;
     private WaitForSeconds waitObj;
+    public FloatData maxHealth, currentHealth;
 
     private void Start()
     {
