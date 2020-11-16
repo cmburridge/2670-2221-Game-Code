@@ -14,7 +14,6 @@ public class DamageBehavior : MonoBehaviour
     public FloatData maxHealth;
     public FloatData damageAmount;
     public UnityEngine.UI.Image healthBar;
-    public GameObject prefab;
 
     private void Start()
     {
