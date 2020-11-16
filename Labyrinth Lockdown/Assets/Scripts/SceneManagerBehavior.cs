@@ -19,9 +19,23 @@ public class SceneManagerBehavior : MonoBehaviour
     
     public void Restart()
     {
+        SceneManager.LoadScene(1);
+    }
+
+    public void Menu()
+    {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
+        gameIsPaused = false;
+        
     }
     
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quit");
+    }
+
     void Update () {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -38,8 +52,6 @@ public class SceneManagerBehavior : MonoBehaviour
         if (currentHealth.value <= 0)
         {
             deathScreenUI.SetActive(true);
-            Time.timeScale = 0f;
-            gameIsPaused = true;
         }
     }
 

@@ -20,8 +20,15 @@ public class DamageBehavior : MonoBehaviour
         if (currentHealth.value <= 0f)
         {
             currentHealth.value = maxHealth.value;
+            gameObject.SetActive(true);
         }
         healthBar.fillAmount = currentHealth.value;
+    }
+
+    public void HealthUpdate()
+    {
+        healthBar.fillAmount = maxHealth.value;
+        currentHealth.value = maxHealth.value;
     }
 
     private void OnTriggerEnter(Collider other)

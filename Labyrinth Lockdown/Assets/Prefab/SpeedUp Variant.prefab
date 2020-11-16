@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9102854233176728161
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2865038833214230727, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_Name
+      value: SpeedUp Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 87.90903
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 101.421265
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.38268277
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92387986
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -45.000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: e9bee18bc02c5ca4596140b94d282fd7,
+        type: 2}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5ba3d7af83b7034ebbd84fb2895c603, type: 3}

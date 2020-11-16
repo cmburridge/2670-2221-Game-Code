@@ -13,6 +13,7 @@
           <e p="ActivateBehavior.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
           <e p="AtatchOnTrigger.cs" t="Include" />
+          <e p="BoolData.cs" t="Include" />
           <e p="DamageBehavior.cs" t="Include" />
           <e p="FloatBehaviors.cs" t="Include" />
           <e p="InstanceBehavior.cs" t="Include" />
@@ -20,6 +21,7 @@
           <e p="IsActiveBehavior.cs" t="Include" />
           <e p="LookAtBehavior.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="PowerUpTracker.cs" t="Include" />
           <e p="ResetStat.cs" t="Include" />
           <e p="SceneManagerBehavior.cs" t="Include" />
           <e p="SelfDestruct.cs" t="Include" />
