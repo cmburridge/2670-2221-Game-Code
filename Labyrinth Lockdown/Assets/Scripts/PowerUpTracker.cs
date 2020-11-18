@@ -3,17 +3,33 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Image = UnityEngine.UIElements.Image;
 
 public class PowerUpTracker : MonoBehaviour
 {
-    public BoolData collected;
-    public Image image;
+    public BoolData keyCollected, speedCollected, jumpCollected, hpCollected;
+    public GameObject keyImage, speedImage, jumpImage, hpImage;
 
-    private void Update()
+    private void Start()
     {
-        if (collected == true)
+        if (keyCollected.isTrue == true)
         {
-            image.enabled = true;
+            keyImage.SetActive(true);
+        }
+
+        if (speedCollected.isTrue == true)
+        {
+            speedImage.SetActive(true);
+        }
+        
+        if (jumpCollected.isTrue == true)
+        {
+            jumpImage.SetActive(true);
+        }
+        
+        if (hpCollected.isTrue == true)
+        {
+            hpImage.SetActive(true);
         }
     }
 }

@@ -7,11 +7,18 @@ using UnityEngine.UI;
 
 public class SceneManagerBehavior : MonoBehaviour
 { 
-    public static bool gameIsPaused = false; 
+    public static bool gameIsPaused = false;
+    public BoolData playerIsDead;
     public GameObject pauseMenuUi;
     public GameObject deathScreenUI;
     public FloatData currentHealth;
-    
+
+    private void Start()
+    {
+        playerIsDead.isTrue = false;
+        Time.timeScale = 1f;
+    }
+
     public void OnTriggerEnter()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -27,7 +34,6 @@ public class SceneManagerBehavior : MonoBehaviour
         SceneManager.LoadScene(0);
         Time.timeScale = 1f;
         gameIsPaused = false;
-        
     }
     
     public void QuitGame()
@@ -36,22 +42,27 @@ public class SceneManagerBehavior : MonoBehaviour
         Debug.Log("Quit");
     }
 
-    void Update () {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (gameIsPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
-        }
-
+    void Update () 
+    {
         if (currentHealth.value <= 0)
         {
             deathScreenUI.SetActive(true);
+            playerIsDead.isTrue = true;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (playerIsDead.isTrue == false)
+            {
+               if (gameIsPaused)
+               {
+                   Resume();
+               }
+               else
+               {
+                   Pause();
+               }  
+            }
         }
     }
 

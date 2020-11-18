@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 2865038833214230727, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
       propertyPath: m_Name
-      value: HealthUp Variant
+      value: HealthUp
       objectReference: {fileID: 0}
     - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
@@ -75,7 +75,7 @@ PrefabInstance:
     - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
@@ -122,8 +122,7 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 362990865264371367, guid: 66cbfc3fc8f03ce45a1c610c1a0a1333,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -133,6 +132,62 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 56b8cf7c513aa724cbcad7ed59a47b7f,
+        type: 2}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: UpdateBool
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
+        type: 3}
+      propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}

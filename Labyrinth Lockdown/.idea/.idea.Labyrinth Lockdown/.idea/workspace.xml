@@ -4,6 +4,9 @@
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/HealthUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/HealthUp Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/JumpUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/JumpUp Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/SpeedUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/SpeedUp Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/End.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
@@ -11,6 +14,10 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +70,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
       </list>
     </option>
   </component>
@@ -134,6 +141,7 @@
       <workItem from="1605398503175" duration="6052000" />
       <workItem from="1605484056920" duration="6303000" />
       <workItem from="1605546670884" duration="9131000" />
+      <workItem from="1605660189516" duration="10382000" />
     </task>
     <servers />
   </component>

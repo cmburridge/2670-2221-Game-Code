@@ -5,9 +5,9 @@ using UnityEngine;
 [CreateAssetMenu]
 public class BoolData : ScriptableObject
 {
-    public bool isTrue;
+    public bool isTrue = false;
 
-    public void UpdateBool(bool isTrue)
+    public void UpdateBool()
     {
         isTrue = true;
     }
