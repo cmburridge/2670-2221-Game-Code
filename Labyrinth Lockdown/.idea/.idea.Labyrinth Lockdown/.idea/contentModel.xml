@@ -14,7 +14,9 @@
           <e p="ApplyForce.cs" t="Include" />
           <e p="AtatchOnTrigger.cs" t="Include" />
           <e p="BoolData.cs" t="Include" />
+          <e p="CountDownActivater.cs" t="Include" />
           <e p="DamageBehavior.cs" t="Include" />
+          <e p="DeathCOunt.cs" t="Include" />
           <e p="FloatBehaviors.cs" t="Include" />
           <e p="InstanceBehavior.cs" t="Include" />
           <e p="IntBehaviors.cs" t="Include" />

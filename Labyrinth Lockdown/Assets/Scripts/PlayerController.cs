@@ -30,6 +30,8 @@ public class PlayerController : MonoBehaviour
         
         yVar += gravity * Time.deltaTime;
 
+        
+        
         if (controller.isGrounded && movement.y < 0)
         {
             yVar = -1f;

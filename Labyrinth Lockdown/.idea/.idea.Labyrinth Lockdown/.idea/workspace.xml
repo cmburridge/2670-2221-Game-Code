@@ -29,34 +29,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/LevelLayouts.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountDownActivater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Behavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatBehaviors.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.2.3/Runtime/Core/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../2019.3.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Exit.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/LevelLayouts.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeathCOunt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.2.3/Runtime/Core/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../2019.3.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Exit.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Transform Behavior.cs" />
@@ -67,14 +68,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ValueEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Triggers.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FloatBehaviors.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DeathCOunt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CountDownActivater.cs" />
       </list>
     </option>
   </component>
@@ -142,6 +147,7 @@
       <workItem from="1605484056920" duration="6303000" />
       <workItem from="1605546670884" duration="9131000" />
       <workItem from="1605660189516" duration="10382000" />
+      <workItem from="1605731250032" duration="8393000" />
     </task>
     <servers />
   </component>

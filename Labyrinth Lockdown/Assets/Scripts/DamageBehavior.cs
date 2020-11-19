@@ -13,6 +13,7 @@ public class DamageBehavior : MonoBehaviour
     public FloatData currentHealth;
     public FloatData maxHealth;
     public FloatData damageAmount;
+    public FloatData deathCount;
     public UnityEngine.UI.Image healthBar;
 
     private void Start()
@@ -45,6 +46,7 @@ public class DamageBehavior : MonoBehaviour
     {
         if (currentHealth.value <= 0)
         {
+            deathCount.value += 1;
             gameObject.SetActive(false);
         }
     }

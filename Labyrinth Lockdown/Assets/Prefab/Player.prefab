@@ -239,6 +239,8 @@ MonoBehaviour:
   currentHealth: {fileID: 11400000, guid: 6c11b75614bbd8a4d9ee030a9004955a, type: 2}
   maxHealth: {fileID: 11400000, guid: 60fc198d748c94148b46bfe66a95f1f8, type: 2}
   damageAmount: {fileID: 11400000, guid: 2f73396e01451e54086f373ea6eb3f95, type: 2}
+  deathCount: {fileID: 11400000, guid: be44fd69f897349428227ed865aa39b0, type: 2}
+  healthBar: {fileID: 0}
 --- !u!143 &362990865264371364
 CharacterController:
   m_ObjectHideFlags: 0
