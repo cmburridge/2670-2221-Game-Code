@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3691188563291378127}
   - component: {fileID: 3691188563291378124}
   - component: {fileID: 3691188563291378125}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 3691188563672976276}
   - component: {fileID: 3691188563672976277}
   - component: {fileID: 3691188563672976274}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 3691188564548901381}
   - component: {fileID: 3691188564548901378}
   - component: {fileID: 3691188564548901379}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 3691188564658882943}
   - component: {fileID: 3691188564658882940}
   - component: {fileID: 3691188564658882941}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +384,7 @@ GameObject:
   - component: {fileID: 3691188564910964466}
   - component: {fileID: 3691188564910964467}
   - component: {fileID: 3691188564910964464}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,8 @@ GameObject:
   - component: {fileID: 3691188564912819827}
   - component: {fileID: 3691188564912819824}
   - component: {fileID: 3691188564912819825}
-  m_Layer: 0
+  - component: {fileID: 1365068658561324004}
+  m_Layer: 11
   m_Name: Cell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1261,6 +1262,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!208 &1365068658561324004
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3691188564912819838}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3691188565118275585
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,7 +1290,7 @@ GameObject:
   - component: {fileID: 3691188565118275589}
   - component: {fileID: 3691188565118275586}
   - component: {fileID: 3691188565118275587}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

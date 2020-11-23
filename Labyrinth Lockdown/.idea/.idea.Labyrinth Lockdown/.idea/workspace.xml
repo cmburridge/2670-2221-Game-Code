@@ -2,22 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/CatWalk.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/CatWalk.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Cell.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Double Cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Double Cell.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Entrance (1).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Entrance (1).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Exit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Exit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/HealthUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/HealthUp Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/JumpUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/JumpUp Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Large Cell.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Large Cell.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Main Ground.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Main Ground.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/NPC.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/NPC.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/OpenCells.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/OpenCells.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Patrol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Patrol.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Pipe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Pipe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/PlatformHolderUp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/PlatformHolderUp.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Power Up.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Power Up.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Pre Active.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Pre Active.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Small Ramp.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Small Ramp.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/SpeedUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/SpeedUp Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Switch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Switch.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Tower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Tower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Wander.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Wander.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/End.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/JumpHeight.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/JumpHeight.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +61,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountDownActivater.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Behavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatBehaviors.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,10 +69,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WanderAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/LevelLayouts.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" root0="FORCE_HIGHLIGHTING" />
@@ -49,9 +81,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeathCOunt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.probuilder@4.2.3/Runtime/Core/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefab/NPC.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../2019.3.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Exit.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -71,15 +106,21 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FloatBehaviors.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeathCOunt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CountDownActivater.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WanderAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy Ai.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/ActivateEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/DialogueBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueBehavior.cs" />
       </list>
     </option>
   </component>
@@ -147,7 +188,9 @@
       <workItem from="1605484056920" duration="6303000" />
       <workItem from="1605546670884" duration="9131000" />
       <workItem from="1605660189516" duration="10382000" />
-      <workItem from="1605731250032" duration="8393000" />
+      <workItem from="1605731250032" duration="8989000" />
+      <workItem from="1606068323944" duration="24065000" />
+      <workItem from="1606109753352" duration="2139000" />
     </task>
     <servers />
   </component>

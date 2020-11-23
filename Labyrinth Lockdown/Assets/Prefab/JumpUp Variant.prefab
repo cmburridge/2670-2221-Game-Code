@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 2865038833214230727, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
       propertyPath: m_Name
-      value: JumpUp
+      value: JumpUp Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
@@ -96,7 +96,7 @@ PrefabInstance:
     - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 6094706059993116038, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}

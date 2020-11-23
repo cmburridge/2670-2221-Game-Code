@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9116385500508076048}
   - component: {fileID: 5688749055758056866}
   - component: {fileID: 6623457416085819176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hitbox
   m_TagString: Bullet
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 3361804420176605382}
   - component: {fileID: 9123960084171726920}
   - component: {fileID: 427310096848544111}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,9 @@ GameObject:
   - component: {fileID: 4485575207295888365}
   - component: {fileID: 6994731782232486723}
   - component: {fileID: 5500030584327273369}
-  m_Layer: 0
+  - component: {fileID: 5355707378280266678}
+  - component: {fileID: 1770754875}
+  m_Layer: 10
   m_Name: Patrol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -718,6 +720,59 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!195 &5355707378280266678
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332168024963606729}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 8
+  m_Acceleration: 12
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &1770754875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5332168024963606729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0897f79170a424d4a805be19b0fbc9e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agent: {fileID: 5355707378280266678}
+  player: {fileID: 0}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 2048
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 512
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 8
+  boosted: 12
+  normal: 8
+  timeBetweenAttacks: 0.5
+  projectile: {fileID: 2274750346312892910, guid: f7910f3aeae136e43bb43d0b4335780d,
+    type: 3}
+  sightRange: 20
+  attackRange: 0
+  playerInSight: 0
+  playerInRange: 0
 --- !u!1 &6672465102563061673
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +786,7 @@ GameObject:
   - component: {fileID: 8121927572412757661}
   - component: {fileID: 7182850369449112986}
   - component: {fileID: 624588646809179670}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (1)(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1281,7 +1336,7 @@ GameObject:
   - component: {fileID: 4543088853721414095}
   - component: {fileID: 7191572059804065653}
   - component: {fileID: 5346176578392554973}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1867,7 +1922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1401754453354892727}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}

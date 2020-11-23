@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 2865038833214230727, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}
       propertyPath: m_Name
-      value: HealthUp
+      value: HealthUp Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2865038833214230744, guid: a5ba3d7af83b7034ebbd84fb2895c603,
         type: 3}

@@ -23,15 +23,36 @@ public class PlayerController : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
     }
-
+    
+    bool GetAnyKey(params KeyCode[] aKeys)
+    {
+        foreach(var key in aKeys)
+            if (Input.GetKey(key))
+                return true;
+        return false;
+    }
+    
     private void Update()
     {
-        movement = new Vector3(Input.GetAxis("Vertical")* -moveSpeed.value, yVar, Input.GetAxis("Horizontal")* moveSpeed.value);
+        float moveHorizontal = Input.GetAxisRaw ("Horizontal");
+        float moveVertical = Input.GetAxisRaw ("Vertical");
         
+        
+        Vector3 movement = new Vector3(moveHorizontal, yVar, moveVertical);
+        
+        Vector3 direction = new Vector3(moveHorizontal,0,moveVertical);
+        
+        transform.rotation = Quaternion.LookRotation(direction);
+
+        controller.Move(Time.deltaTime * moveSpeed.value * movement);
+
+        if (this.transform.rotation == Quaternion.identity)
+        {
+            transform.rotation = Quaternion.Euler(0,0,0);
+        }
+
         yVar += gravity * Time.deltaTime;
 
-        
-        
         if (controller.isGrounded && movement.y < 0)
         {
             yVar = -1f;
@@ -48,8 +69,5 @@ public class PlayerController : MonoBehaviour
             yVar = jumpHeight.value;
             jumpCount++;
         }
-
-        movement = transform.TransformDirection(movement);
-        controller.Move(movement * Time.deltaTime);
     }
 }

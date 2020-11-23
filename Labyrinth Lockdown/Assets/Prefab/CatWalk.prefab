@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3520549173594164009}
   - component: {fileID: 3520549173594164008}
   - component: {fileID: 3520549173594164011}
-  m_Layer: 0
+  - component: {fileID: -9161598243082477122}
+  m_Layer: 11
   m_Name: CatWalk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -675,6 +676,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!208 &-9161598243082477122
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3520549173594164010}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &3520549173991167887
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +704,7 @@ GameObject:
   - component: {fileID: 3520549173991167923}
   - component: {fileID: 3520549173991167922}
   - component: {fileID: 3520549173991167885}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +797,7 @@ GameObject:
   - component: {fileID: 3520549174329713516}
   - component: {fileID: 3520549174329713519}
   - component: {fileID: 3520549174329713518}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,7 +890,7 @@ GameObject:
   - component: {fileID: 3520549174651109298}
   - component: {fileID: 3520549174651109261}
   - component: {fileID: 3520549174651109260}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -966,7 +983,7 @@ GameObject:
   - component: {fileID: 3520549174872270576}
   - component: {fileID: 3520549174872270579}
   - component: {fileID: 3520549174872270578}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}

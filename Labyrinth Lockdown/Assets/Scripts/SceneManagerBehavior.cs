@@ -23,8 +23,18 @@ public class SceneManagerBehavior : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    
+
+    public void Skip()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void Restart()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Tutorial()
     {
         SceneManager.LoadScene(1);
     }

@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 4727245479129260684}
   - component: {fileID: 4807590189482903820}
   - component: {fileID: 2928119546217239788}
-  m_Layer: 0
+  - component: {fileID: 8705470251069852865}
+  m_Layer: 11
   m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,6 +315,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!208 &8705470251069852865
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170861124261650312}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &5167109980550405115
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +343,7 @@ GameObject:
   - component: {fileID: 5227114452715991247}
   - component: {fileID: 8491542809943434216}
   - component: {fileID: 1631763186480370155}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Open Door (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +437,7 @@ GameObject:
   - component: {fileID: 5822985452277517484}
   - component: {fileID: 9097333981830591079}
   - component: {fileID: 3300550255327408193}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1209,7 +1226,7 @@ GameObject:
   - component: {fileID: 6925539272275564877}
   - component: {fileID: 501002257525737412}
   - component: {fileID: 1461547997462290205}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1302,7 +1319,7 @@ GameObject:
   - component: {fileID: 8187905095161373696}
   - component: {fileID: 8604343966047997334}
   - component: {fileID: 3353444811691860476}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Closed Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}

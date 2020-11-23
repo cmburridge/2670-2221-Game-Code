@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8874310130004679350}
   - component: {fileID: 8874310130004679337}
   - component: {fileID: 8874310130004679336}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,8 @@ GameObject:
   - component: {fileID: 8874310130301957513}
   - component: {fileID: 8874310130301957512}
   - component: {fileID: 8874310130301957515}
-  m_Layer: 0
+  - component: {fileID: -9108314335954328724}
+  m_Layer: 11
   m_Name: Large Cell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -889,6 +890,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!208 &-9108314335954328724
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8874310130301957517}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &8874310130319266795
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,7 +918,7 @@ GameObject:
   - component: {fileID: 8874310130319266807}
   - component: {fileID: 8874310130319266806}
   - component: {fileID: 8874310130319266793}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,7 +1011,7 @@ GameObject:
   - component: {fileID: 8874310130558857876}
   - component: {fileID: 8874310130558857879}
   - component: {fileID: 8874310130558857878}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1087,7 +1104,7 @@ GameObject:
   - component: {fileID: 8874310131013482203}
   - component: {fileID: 8874310131013482202}
   - component: {fileID: 8874310131013482205}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1180,7 +1197,7 @@ GameObject:
   - component: {fileID: 8874310131468920199}
   - component: {fileID: 8874310131468920198}
   - component: {fileID: 8874310131468920249}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1273,7 +1290,7 @@ GameObject:
   - component: {fileID: 8874310131865112807}
   - component: {fileID: 8874310131865112806}
   - component: {fileID: 8874310131865112729}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

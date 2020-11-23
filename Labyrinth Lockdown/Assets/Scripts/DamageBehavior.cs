@@ -15,6 +15,7 @@ public class DamageBehavior : MonoBehaviour
     public FloatData damageAmount;
     public FloatData deathCount;
     public UnityEngine.UI.Image healthBar;
+    public bool canDamage = true;
 
     private void Start()
     {
@@ -35,11 +36,19 @@ public class DamageBehavior : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         var otherTag = other.CompareTag("Bullet");
-        if (otherTag)
+        if (otherTag && canDamage == true)
         {
           currentHealth.value -= damageAmount.value;
           healthBar.fillAmount -= damageAmount.value;
+          StartCoroutine("InvulnTimer");
+          canDamage = false;
         }
+    }
+
+    public IEnumerator InvulnTimer()
+    {
+        yield return new WaitForSeconds(2);
+        canDamage = true;
     }
 
     private void Update()
@@ -47,6 +56,7 @@ public class DamageBehavior : MonoBehaviour
         if (currentHealth.value <= 0)
         {
             deathCount.value += 1;
+            canDamage = true;
             gameObject.SetActive(false);
         }
     }

@@ -9,6 +9,18 @@
         <e p="Material" t="Include">
           <e p="AlwaysVisible.shader" t="Include" />
         </e>
+        <e p="QuickOutline" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="OutlineFill.shader" t="Include" />
+              <e p="OutlineMask.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Outline.cs" t="Include" />
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="ActivateBehavior.cs" t="Include" />
           <e p="ApplyForce.cs" t="Include" />
@@ -17,11 +29,12 @@
           <e p="CountDownActivater.cs" t="Include" />
           <e p="DamageBehavior.cs" t="Include" />
           <e p="DeathCOunt.cs" t="Include" />
+          <e p="DialogueBehavior.cs" t="Include" />
+          <e p="EnemyAi.cs" t="Include" />
           <e p="FloatBehaviors.cs" t="Include" />
           <e p="InstanceBehavior.cs" t="Include" />
           <e p="IntBehaviors.cs" t="Include" />
           <e p="IsActiveBehavior.cs" t="Include" />
-          <e p="LookAtBehavior.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PowerUpTracker.cs" t="Include" />
           <e p="ResetStat.cs" t="Include" />
@@ -30,6 +43,7 @@
           <e p="TriggerEventBehavior.cs" t="Include" />
           <e p="Triggers.cs" t="Include" />
           <e p="Vector3Behavior.cs" t="Include" />
+          <e p="WanderAI.cs" t="Include" />
         </e>
       </e>
       <e p="Labyrinth Lockdown.sln" t="IncludeFlat" />
