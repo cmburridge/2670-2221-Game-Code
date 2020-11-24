@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: Timer
+  m_Name: COuntDownTimer
   m_EditorClassIdentifier: Assembly-CSharp::FloatData
-  value: 4.134774
+  value: 0

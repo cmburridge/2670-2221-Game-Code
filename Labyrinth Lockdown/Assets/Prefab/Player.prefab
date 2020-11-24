@@ -144,7 +144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362990865264371362}
   m_LocalRotation: {x: -0, y: 0.9999678, z: -0, w: 0.008031622}
-  m_LocalPosition: {x: -16.47, y: 1.6199514, z: 147.59}
+  m_LocalPosition: {x: -16.47, y: 1.7, z: 147.59}
   m_LocalScale: {x: 0.9235985, y: 1, z: 0.81588125}
   m_Children:
   - {fileID: 362990864562982003}
@@ -261,6 +261,7 @@ MonoBehaviour:
   deathCount: {fileID: 11400000, guid: be44fd69f897349428227ed865aa39b0, type: 2}
   healthBar: {fileID: 0}
   canDamage: 1
+  damageScreen: {fileID: 0}
 --- !u!143 &362990865264371364
 CharacterController:
   m_ObjectHideFlags: 0

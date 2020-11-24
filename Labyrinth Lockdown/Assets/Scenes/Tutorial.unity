@@ -1404,7 +1404,7 @@ Transform:
   - {fileID: 1343060836}
   - {fileID: 1925134945}
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0.0050000004, z: 0}
 --- !u!1 &52171210
 GameObject:
@@ -1749,7 +1749,7 @@ RectTransform:
   m_Children:
   - {fileID: 439366191}
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1762,7 +1762,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-451800
+  m_Name: pb_Mesh-267106
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1979,7 +1979,7 @@ PrefabInstance:
     - target: {fileID: 7215916421793774894, guid: a4b9e1e41447bcb418c1edbaad6ee83c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7215916421793774894, guid: a4b9e1e41447bcb418c1edbaad6ee83c,
         type: 3}
@@ -2233,7 +2233,7 @@ PrefabInstance:
     - target: {fileID: 490977952806246860, guid: 2ff0b77a9621f0640b1dfe980971bbd9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 490977952806246860, guid: 2ff0b77a9621f0640b1dfe980971bbd9,
         type: 3}
@@ -2322,7 +2322,7 @@ PrefabInstance:
     - target: {fileID: 8874310130301957514, guid: fcc5ed70abeea834b9486d39401c1624,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8874310130301957514, guid: fcc5ed70abeea834b9486d39401c1624,
         type: 3}
@@ -2361,6 +2361,116 @@ PrefabInstance:
       objectReference: {fileID: 1762003985}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcc5ed70abeea834b9486d39401c1624, type: 3}
+--- !u!1 &211051555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 211051556}
+  - component: {fileID: 211051560}
+  - component: {fileID: 211051559}
+  - component: {fileID: 211051558}
+  - component: {fileID: 211051557}
+  m_Layer: 11
+  m_Name: Bar (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &211051556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211051555}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.993, y: -3.9127505, z: -0.917}
+  m_LocalScale: {x: 0.049668513, y: 8.340435, z: 0.043263946}
+  m_Children: []
+  m_Father: {fileID: 821426903}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!208 &211051557
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211051555}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!65 &211051558
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211051555}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &211051559
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211051555}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 72dbd16542f585543a9d103a698dc2ef, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &211051560
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211051555}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &211201549
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,7 +2616,7 @@ Transform:
   m_Children:
   - {fileID: 228543823}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 27.938002, y: 0, z: 0}
 --- !u!1 &228543822
 GameObject:
@@ -3202,7 +3312,7 @@ PrefabInstance:
     - target: {fileID: 5864104633515233534, guid: c03b441868c7ad347a16efda6f15adf6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5864104633515233534, guid: c03b441868c7ad347a16efda6f15adf6,
         type: 3}
@@ -3391,7 +3501,7 @@ PrefabInstance:
     - target: {fileID: 7435174316992096820, guid: 4dacea1c58d9a0447a1ac371385f8cbf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7435174316992096820, guid: 4dacea1c58d9a0447a1ac371385f8cbf,
         type: 3}
@@ -3425,6 +3535,99 @@ PrefabInstance:
       objectReference: {fileID: 1337139411}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dacea1c58d9a0447a1ac371385f8cbf, type: 3}
+--- !u!1 &288542675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 288542676}
+  - component: {fileID: 288542679}
+  - component: {fileID: 288542678}
+  - component: {fileID: 288542677}
+  m_Layer: 11
+  m_Name: Bar (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &288542676
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288542675}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.996, y: -3.9127505, z: -0.85}
+  m_LocalScale: {x: 0.04966851, y: 8.340435, z: 0.09429809}
+  m_Children: []
+  m_Father: {fileID: 1562030354}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &288542677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288542675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &288542678
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288542675}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 22db1ead5e3491d4eb2681c62b25057d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &288542679
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288542675}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &306914452
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4645,7 +4848,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 27.938002, y: 0, z: 0}
 --- !u!1 &426379335
 GameObject:
@@ -5255,7 +5458,7 @@ RectTransform:
   - {fileID: 952585646}
   - {fileID: 532767708}
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5461,14 +5664,14 @@ MonoBehaviour:
   hpImage: {fileID: 586824580}
   dialogue: {fileID: 437195297}
   text: {fileID: 952585647}
-  npcDialogue: Hello stranger, welcome to the Labyrinth. Or at least thats what we
-    call it. Just like you, we've all suddenly awoke in this strange place with a
-    heavy case of amnesia. You're safe here in the Lower Cells, but out there in
-    the other floors this prison is a real nightmare. Ive never been up there, but
-    most men that try have never made it back alive. We hope that means they've found
-    a way out, but we're to scared to go looking ourselves. Go ahead and step on
-    that gold button to open the cell, Im sure the others will have plenty to say
-    too.
+  npcDialogue: "Hello stranger, welcome to the Labyrinth. Or at least that's what
+    we call it. Just like you, we've all suddenly awoke in this strange place with
+    a heavy case of amnesia. You're safe here in the Lower Cells, but out there in
+    the other floors this prison is a real nightmare. I've never been up there myself,
+    but most men that try don\u2019t come back. We hope that means they've found
+    a way out, but we're too scared to go looking ourselves. Go ahead and step on
+    that gold switch to open the cell, I'm sure the others will have plenty to say
+    too. "
 --- !u!65 &482426192
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5480,8 +5683,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.81447434, y: 1, z: 1}
+  m_Center: {x: 0.09276274, y: 0, z: 0}
 --- !u!4 &482426193
 Transform:
   m_ObjectHideFlags: 0
@@ -5494,7 +5697,7 @@ Transform:
   m_LocalScale: {x: 3.0243, y: 0.30137452, z: 3.0243}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &482426194
 MonoBehaviour:
@@ -5524,7 +5727,18 @@ MonoBehaviour:
         m_CallState: 2
   triggerExitEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 482426190}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   delayTime: 1
 --- !u!1 &485725551
 GameObject:
@@ -5618,7 +5832,7 @@ RectTransform:
   m_Children:
   - {fileID: 254586214}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5724,7 +5938,7 @@ RectTransform:
   - {fileID: 1162562071}
   - {fileID: 1987026456}
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5737,7 +5951,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-451766
+  m_Name: pb_Mesh-267068
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6431,7 +6645,7 @@ RectTransform:
   m_Children:
   - {fileID: 1982715964}
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6708,7 +6922,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-451694
+  m_Name: pb_Mesh-267000
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7403,6 +7617,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820488744}
   m_CullTransparentMesh: 0
+--- !u!4 &821426903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8874310130301957514, guid: fcc5ed70abeea834b9486d39401c1624,
+    type: 3}
+  m_PrefabInstance: {fileID: 209640623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &826128618
 GameObject:
   m_ObjectHideFlags: 0
@@ -7496,7 +7716,7 @@ RectTransform:
   - {fileID: 67396573}
   - {fileID: 704457828}
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8114,7 +8334,7 @@ RectTransform:
   m_Children:
   - {fileID: 1585168482}
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8403,7 +8623,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-451750
+  m_Name: pb_Mesh-267056
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8757,7 +8977,7 @@ PrefabInstance:
     - target: {fileID: 6101349829587794696, guid: 088db58a3d147c749a5f51de085acdf8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 6101349829587794696, guid: 088db58a3d147c749a5f51de085acdf8,
         type: 3}
@@ -8945,7 +9165,7 @@ Transform:
   m_LocalScale: {x: 0.6364326, y: 0.6364326, z: 0.6364326}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1227581199
 GameObject:
@@ -8990,8 +9210,138 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1245917248
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1477897923486515394, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_Name
+      value: DeathScreen 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515394, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477897923486515422, guid: 0b8262d873588684fbff27ebaa94902c,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b8262d873588684fbff27ebaa94902c, type: 3}
+--- !u!1 &1245917249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1477897923486515394, guid: 0b8262d873588684fbff27ebaa94902c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1245917248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1262682000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9049,7 +9399,7 @@ PrefabInstance:
     - target: {fileID: 490977952806246860, guid: 2ff0b77a9621f0640b1dfe980971bbd9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 490977952806246860, guid: 2ff0b77a9621f0640b1dfe980971bbd9,
         type: 3}
@@ -9207,7 +9557,7 @@ Transform:
   m_LocalScale: {x: 4.20244, y: 4.20244, z: 4.20244}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: -134.99501, z: -90.00001}
 --- !u!1 &1306759890
 GameObject:
@@ -9487,7 +9837,7 @@ Transform:
   m_LocalScale: {x: 4.20244, y: 4.20244, z: 4.20244}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: -44.995003, z: -90.00001}
 --- !u!43 &1337139411
 Mesh:
@@ -9495,7 +9845,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh710486
+  m_Name: pb_Mesh511498
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9751,7 +10101,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-451538
+  m_Name: pb_Mesh-266844
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9998,7 +10348,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 71.755005, y: 0.0050000004, z: 0}
 --- !u!1 &1486057460
 GameObject:
@@ -10271,6 +10621,14 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 952585647}
+    - target: {fileID: -475953839494174129, guid: f6dd6f015f2b456439cecfd42c1853cd,
+        type: 3}
+      propertyPath: npcDialogue
+      value: "You must be new here too. They told me there\u2019s a keycard in this
+        cell, you\u2019ll have to find out what opens these bars if you wanna have
+        access to that elevator. I also can\u2019t help but wonder what this red
+        platform is.. "
+      objectReference: {fileID: 0}
     - target: {fileID: 3606139652979508758, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: wanderRadius
@@ -10371,6 +10729,12 @@ PrefabInstance:
 --- !u!1 &1562030353 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7079641789052220186, guid: 3b37be25845f91240adbc359b5b0a3b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1049895430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1562030354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7777977638831459918, guid: 3b37be25845f91240adbc359b5b0a3b3,
     type: 3}
   m_PrefabInstance: {fileID: 1049895430}
   m_PrefabAsset: {fileID: 0}
@@ -10765,7 +11129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh710228
+  m_Name: pb_Mesh511220
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11021,7 +11385,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-451578
+  m_Name: pb_Mesh-266884
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11277,7 +11641,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-451636
+  m_Name: pb_Mesh-266942
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12382,13 +12746,13 @@ PrefabInstance:
     - target: {fileID: -475953839494174129, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: npcDialogue
-      value: Just like you, we've all suddenly awoke in this strange place with a
-        heavy case of amnesia. You're safe here in the Lower Cells, but out there
-        in the other floors this prison is a real nightmare. Ive never been up there,
-        but most men that try have never made it back alive. We hope that means they've
-        found a way out, but we're to scared to go looking ourselves. Go ahead and
-        step on that gold button to open the cell, Im sure the others will have plenty
-        to say too.
+      value: "Just like you, we've all suddenly awoke in this strange place with
+        a heavy case of amnesia. You're safe here in the Lower Cells, but out there
+        in the other floors this prison is a real nightmare. I've never been up there
+        myself, but most men that try don\u2019t come back. We hope that means they've
+        found a way out, but we're too scared to go looking ourselves. Go ahead and
+        step on that gold switch to open the cell, I'm sure the others will have
+        plenty to say too. "
       objectReference: {fileID: 0}
     - target: {fileID: 1834927288, guid: f6dd6f015f2b456439cecfd42c1853cd, type: 3}
       propertyPath: m_Controller
@@ -12474,7 +12838,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh709972
+  m_Name: pb_Mesh510934
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12637,7 +13001,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh710548
+  m_Name: pb_Mesh511568
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13269,6 +13633,13 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 952585647}
+    - target: {fileID: -475953839494174129, guid: f6dd6f015f2b456439cecfd42c1853cd,
+        type: 3}
+      propertyPath: npcDialogue
+      value: "I don't trust anyone here, if I were you, I would use this green switch
+        to get outta this crazy place...Why don\u2019t I leave? Free food appears
+        everyday and it\u2019s all mine! NO TOUCHING!! "
+      objectReference: {fileID: 0}
     - target: {fileID: 3606139652979508758, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: wanderRadius
@@ -13277,7 +13648,7 @@ PrefabInstance:
     - target: {fileID: 3606139652979508758, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: wanderTimer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
@@ -13317,7 +13688,7 @@ PrefabInstance:
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
@@ -13394,15 +13765,21 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 952585647}
+    - target: {fileID: -475953839494174129, guid: f6dd6f015f2b456439cecfd42c1853cd,
+        type: 3}
+      propertyPath: npcDialogue
+      value: 'THEY will LET me OUT...they WILL let ME out...THEY will LET me OUT!!...they
+        WILL let ME out...they WILL let me OUT!! '
+      objectReference: {fileID: 0}
     - target: {fileID: 3606139652979508758, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: wanderRadius
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3606139652979508758, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: wanderTimer
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
@@ -13442,7 +13819,7 @@ PrefabInstance:
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
@@ -13705,6 +14082,16 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1163039872}
+    - target: {fileID: 362990865264371367, guid: 66cbfc3fc8f03ce45a1c610c1a0a1333,
+        type: 3}
+      propertyPath: damageScreen
+      value: 
+      objectReference: {fileID: 1245917249}
+    - target: {fileID: 1203020694287111983, guid: 66cbfc3fc8f03ce45a1c610c1a0a1333,
+        type: 3}
+      propertyPath: damageScreen
+      value: 
+      objectReference: {fileID: 1245917249}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66cbfc3fc8f03ce45a1c610c1a0a1333, type: 3}
 --- !u!23 &803467303870142236
@@ -13762,7 +14149,7 @@ Transform:
   - {fileID: 4194639412653938922}
   - {fileID: 331482000708756678}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: -1.534, y: -195.758, z: -5.418}
 --- !u!54 &2398886860934948067
 Rigidbody:
@@ -13874,7 +14261,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: -44.995003, z: 0}
 --- !u!65 &3163578991841284981
 BoxCollider:
@@ -13909,13 +14296,13 @@ PrefabInstance:
     - target: {fileID: -475953839494174129, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: npcDialogue
-      value: You plan on going up there? Good luck, im the only one here that's seen
-        the first floor. There's mutant prisoners like the one they left in the cell
-        over there. They're viscious, orange in color, and I could see the killer
-        nature in there eyes. There's also prison gaurds, they seem to be mutated
-        but they must be working for someone. Be careful of there pistols. The only
-        other thing I saw was a giant beast they call the behemoth, it will stop
-        at nothing to tear you apart.
+      value: 'You plan on going up there? Good luck, I''m the only one here that''s
+        seen the first floor. There are mutant prisoners like the one they left in
+        the cell over there. They''re vicious and I could see the killer nature in
+        their eyes. There''s also prison guards, they seem to be mutated but they
+        must be working for someone. Also be careful of their pistols. The only other
+        thing I saw was a giant beast they call the behemoth, it will stop at nothing
+        to tear you apart. '
       objectReference: {fileID: 0}
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
@@ -13955,7 +14342,7 @@ PrefabInstance:
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 3833546528352285828, guid: f6dd6f015f2b456439cecfd42c1853cd,
         type: 3}

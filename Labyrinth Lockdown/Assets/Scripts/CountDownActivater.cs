@@ -6,10 +6,12 @@ public class CountDownActivater : MonoBehaviour
 {
     public GameObject activatedObj;
     public GameObject activaterObj;
+    public GameObject timerOBJ, textOBJ;
     public bool isActive = false;
     public bool timerRunning = false;
     public FloatData timer;
     public Text countDown;
+    public FloatData playerHP;
     private void OnTriggerEnter(Collider other)
     {
         if (isActive == false)
@@ -36,12 +38,15 @@ public class CountDownActivater : MonoBehaviour
             timer.value -= 1 * Time.deltaTime;   
         }
 
-        if (timer.value <= 0)
+        if (playerHP.value <= 0 || timer.value <= 0)
         {
             activatedObj.SetActive(false);
             activaterObj.SetActive(true);
             isActive = false;
             timerRunning = false;
+            textOBJ.SetActive(false);
+            timerOBJ.SetActive(false);
+            timer.value = 30;
         }
     }
 }
