@@ -44,8 +44,6 @@ public class CountDownActivater : MonoBehaviour
             activaterObj.SetActive(true);
             isActive = false;
             timerRunning = false;
-            textOBJ.SetActive(false);
-            timerOBJ.SetActive(false);
             timer.value = 30;
         }
     }
