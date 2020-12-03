@@ -61,7 +61,6 @@ public class PlayerController : MonoBehaviour
         else
         {
             transform.parent = null;
-            jumpCount = 1;
         }
 
         if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount.value)

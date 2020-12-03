@@ -4,13 +4,18 @@
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/HealthUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/HealthUp Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/JumpUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/JumpUp Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/SpeedUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/SpeedUp Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Switch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Switch.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2/NavMesh.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CountDownActivater.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CountDownActivater.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/COuntDownTimer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/COuntDownTimer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/DeathCount.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/DeathCount.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/Timer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/Timer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +42,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WanderAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatDatas/DeathCount.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/LevelLayouts.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeathCOunt.cs" root0="FORCE_HIGHLIGHTING" />
@@ -157,6 +162,7 @@
       <workItem from="1606109753352" duration="2139000" />
       <workItem from="1606181714050" duration="6819000" />
       <workItem from="1606276453573" duration="1578000" />
+      <workItem from="1606973953269" duration="1199000" />
     </task>
     <servers />
   </component>
