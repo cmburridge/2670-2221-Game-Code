@@ -8124,7 +8124,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUIT
+  m_Text: MENU
 --- !u!222 &544568143
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8766,7 +8766,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 22
+    m_FontSize: 30
     m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 2
@@ -8777,7 +8777,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUICK START
+  m_Text: RESTART
 --- !u!222 &569101010
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14147,7 +14147,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART
+  m_Text: TUTORIAL
 --- !u!222 &988524175
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35453,7 +35453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUIT
+  m_Text: MENU
 --- !u!222 &1856496421
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -38059,7 +38059,10 @@ MonoBehaviour:
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
+    ModeOverride: 0
     LensShift: {x: 0, y: 0}
+    GateFit: 0
+    m_SensorSize: {x: 1.233279, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
