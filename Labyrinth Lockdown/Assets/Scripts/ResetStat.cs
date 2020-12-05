@@ -18,7 +18,7 @@ public class ResetStat : MonoBehaviour
         maxHealth.value = .66f;
         currentHealth.value = maxHealth.value;
         moveSpeed.value = normalSpeed.value;
-        jumpHeight.value = 2;
+        jumpHeight.value = 17;
         keyImage.SetActive(false);
         speedImage.SetActive(false);
         jumpImage.SetActive(false);

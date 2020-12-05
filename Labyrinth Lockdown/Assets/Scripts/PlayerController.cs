@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
-    private Vector3 movement;
+    private Vector3 movement, lookDirection;
 
     public float rotateSpeed = 5f, gravity = -9.81f;
     private float yVar;
@@ -23,50 +23,66 @@ public class PlayerController : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
     }
-    
-    bool GetAnyKey(params KeyCode[] aKeys)
-    {
-        foreach(var key in aKeys)
-            if (Input.GetKey(key))
-                return true;
-        return false;
-    }
-    
+
     private void Update()
     {
-        float moveHorizontal = Input.GetAxisRaw ("Horizontal");
-        float moveVertical = Input.GetAxisRaw ("Vertical");
-        
-        
-        Vector3 movement = new Vector3(moveHorizontal, yVar, moveVertical);
-        
-        Vector3 direction = new Vector3(moveHorizontal,0,moveVertical);
-        
-        transform.rotation = Quaternion.LookRotation(direction);
+        var hInput = Input.GetAxis("Horizontal") * moveSpeed.value * Time.deltaTime;
+        var vInput = Input.GetAxis("Vertical") * moveSpeed.value * Time.deltaTime;
 
-        controller.Move(Time.deltaTime * moveSpeed.value * movement);
+        movement.Set(hInput, yVar, newZ: vInput);
 
-        if (this.transform.rotation == Quaternion.identity)
+        lookDirection.Set(hInput, 0, vInput);
+        
+        if (hInput > 0.0001f || hInput < -0.00001f || vInput > 0.00001f || vInput < -0.00001f)
         {
-            transform.rotation = Quaternion.Euler(0,0,0);
+            transform.rotation = Quaternion.LookRotation(lookDirection);
         }
-
-        yVar += gravity * Time.deltaTime;
+        
+        if (lookDirection == Vector3.zero)
+        {
+            lookDirection.Set(0.0001f * Time.deltaTime, 0, 0.0001f * Time.deltaTime);
+        }
+        
+        movement.y = yVar;
+        
+        controller.Move(movement);
+        if (!controller.isGrounded)
+        {
+           yVar += gravity * Time.deltaTime; 
+        }
 
         if (controller.isGrounded && movement.y < 0)
         {
             yVar = -1f;
             jumpCount = 0;
         }
-        else
-        {
-            transform.parent = null;
-        }
+        
+        if (Input.GetButtonDown("Jump"))
 
-        if (Input.GetButtonDown("Jump") && jumpCount < playerJumpCount.value)
         {
-            yVar = jumpHeight.value;
-            jumpCount++;
+            if (jumpCount < playerJumpCount.value)
+            {
+                yVar = jumpHeight.value * Time.deltaTime;
+                jumpCount++;
+            }
         }
+        
+        lookDirection.Set(hInput, 0, vInput);
+
+        if (lookDirection == Vector3.zero)
+        {
+            lookDirection.Set(0.0001f, 0, 0.0001f);
+        }
+        
+        if (hInput > 0.1f || hInput < -0.1f ||vInput > 0.1f || vInput < -0.1f)
+        {
+            transform.rotation = Quaternion.LookRotation(lookDirection);
+        }
+        
+        if (controller.isGrounded && Input.GetButton("Jump")) {
+            movement.y = yVar;
+        }
+        movement.y -= gravity * Time.deltaTime;
+        controller.Move(movement * Time.deltaTime);
     }
 }

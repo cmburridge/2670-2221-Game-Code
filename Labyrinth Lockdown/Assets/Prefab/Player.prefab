@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 250
-  gravity: -7
+  gravity: -0.5
   moveSpeed: {fileID: 11400000, guid: e9bee18bc02c5ca4596140b94d282fd7, type: 2}
   normalSpeed: {fileID: 11400000, guid: d5d4d6dbea77f9049aab6ba9dd2f6382, type: 2}
   jumpHeight: {fileID: 11400000, guid: dbea48718a9f93745aaa31185fbf0635, type: 2}
