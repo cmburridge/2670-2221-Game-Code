@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/timr.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/timr.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +150,8 @@
       <workItem from="1606181714050" duration="6819000" />
       <workItem from="1606276453573" duration="1578000" />
       <workItem from="1606973953269" duration="1199000" />
-      <workItem from="1607140422832" duration="5850000" />
+      <workItem from="1607140422832" duration="6542000" />
+      <workItem from="1607321005376" duration="598000" />
     </task>
     <servers />
   </component>
