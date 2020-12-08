@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,14 +16,9 @@ public class ResetStat : MonoBehaviour
     
     void OnTriggerEnter()
     {
-        maxHealth.value = .66f;
         currentHealth.value = maxHealth.value;
         moveSpeed.value = normalSpeed.value;
-        jumpHeight.value = 17;
-        keyImage.SetActive(false);
-        speedImage.SetActive(false);
-        jumpImage.SetActive(false);
-        hpImage.SetActive(false);
+        jumpHeight.value = 3;
         keyCollected.isTrue = false;
         hpCollected.isTrue = false;
         speedCollected.isTrue = false;

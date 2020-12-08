@@ -10,26 +10,26 @@ public class PowerUpTracker : MonoBehaviour
     public BoolData keyCollected, speedCollected, jumpCollected, hpCollected;
     public GameObject keyImage, speedImage, jumpImage, hpImage;
 
-    private void Start()
+    private void FixedUpdate()
     {
         if (keyCollected.isTrue == true)
         {
-            keyImage.SetActive(true);
+            Instantiate(keyImage);
         }
 
         if (speedCollected.isTrue == true)
         {
-            speedImage.SetActive(true);
+            Instantiate(speedImage);
         }
         
         if (jumpCollected.isTrue == true)
         {
-            jumpImage.SetActive(true);
+            Instantiate(jumpImage);
         }
         
         if (hpCollected.isTrue == true)
         {
-            hpImage.SetActive(true);
+            Instantiate(hpImage);
         }
     }
 }

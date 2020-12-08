@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: CurrentSPD
   m_EditorClassIdentifier: Assembly-CSharp::FloatData
-  value: 11
+  value: 9

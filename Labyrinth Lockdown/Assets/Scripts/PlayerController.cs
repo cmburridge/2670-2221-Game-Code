@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
-    private Vector3 movement, lookDirection;
+    private Vector3 movement, lookDirection, velocity;
 
     public float rotateSpeed = 5f, gravity = -9.81f;
     private float yVar;
@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         var hInput = Input.GetAxis("Horizontal") * moveSpeed.value * Time.deltaTime;
         var vInput = Input.GetAxis("Vertical") * moveSpeed.value * Time.deltaTime;
 
-        movement.Set(hInput, yVar, newZ: vInput);
+        movement.Set(hInput, 0, newZ: vInput);
 
         lookDirection.Set(hInput, 0, vInput);
         
@@ -42,47 +42,34 @@ public class PlayerController : MonoBehaviour
         {
             lookDirection.Set(0.0001f * Time.deltaTime, 0, 0.0001f * Time.deltaTime);
         }
-        
-        movement.y = yVar;
-        
-        controller.Move(movement);
+
         if (!controller.isGrounded)
         {
-           yVar += gravity * Time.deltaTime; 
+            transform.parent = null;
+            playerJumpCount.value = 0;
         }
 
-        if (controller.isGrounded && movement.y < 0)
+        if (controller.isGrounded)
         {
-            yVar = -1f;
-            jumpCount = 0;
+            playerJumpCount.value = 1;
         }
         
-        if (Input.GetButtonDown("Jump"))
-
-        {
-            if (jumpCount < playerJumpCount.value)
-            {
-                yVar = jumpHeight.value * Time.deltaTime;
-                jumpCount++;
-            }
-        }
+        controller.Move(movement);
         
-        lookDirection.Set(hInput, 0, vInput);
-
-        if (lookDirection == Vector3.zero)
-        {
-            lookDirection.Set(0.0001f, 0, 0.0001f);
-        }
-        
-        if (hInput > 0.1f || hInput < -0.1f ||vInput > 0.1f || vInput < -0.1f)
-        {
-            transform.rotation = Quaternion.LookRotation(lookDirection);
-        }
-        
-        if (controller.isGrounded && Input.GetButton("Jump")) {
-            movement.y = yVar;
-        }
-        movement.y -= gravity * Time.deltaTime;
         controller.Move(movement * Time.deltaTime);
+
+        if (controller.isGrounded && velocity.y < 0)
+        {
+            velocity.y = -2f;
+        }
+
+        if (Input.GetButtonDown("Jump") && playerJumpCount.value == 1)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight.value * -2f * gravity);
+        }
+
+        velocity.y += gravity * Time.deltaTime;
+
+        controller.Move(velocity * Time.deltaTime);
     }
 }

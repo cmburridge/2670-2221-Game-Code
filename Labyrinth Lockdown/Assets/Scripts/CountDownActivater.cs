@@ -40,11 +40,11 @@ public class CountDownActivater : MonoBehaviour
 
         if (playerHP.value <= 0 || timer.value <= 0)
         {
+            timer.value = 30;
             activatedObj.SetActive(false);
             activaterObj.SetActive(true);
             isActive = false;
             timerRunning = false;
-            timer.value = 30;
         }
     }
 }
