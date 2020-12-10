@@ -262,6 +262,18 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   canDamage: 1
   damageScreen: {fileID: 0}
+  deadPrefab1: {fileID: 3472136853514512603, guid: 778a65aadc41aeb40ab074d7e3a5ede2,
+    type: 3}
+  deadPrefab2: {fileID: 9014192428534714883, guid: fef02166ad8581547956745221c1466f,
+    type: 3}
+  deadPrefab3: {fileID: 8585673272279597026, guid: af154caa0b5d42041b84371ead83f582,
+    type: 3}
+  deadPrefab4: {fileID: 4206800922927361587, guid: cd73ca6dbebb9c84dbb6759ac7e29f4a,
+    type: 3}
+  keyCollected: {fileID: 11400000, guid: c1aa6577d1dcee14a86775c37c350a34, type: 2}
+  speedCollected: {fileID: 11400000, guid: 1d2ddf790fbeb87428358b1d96e9fd1e, type: 2}
+  jumpCollected: {fileID: 11400000, guid: 760aefc4873805441aa4a115577993c3, type: 2}
+  hpCollected: {fileID: 11400000, guid: 56b8cf7c513aa724cbcad7ed59a47b7f, type: 2}
 --- !u!143 &362990865264371364
 CharacterController:
   m_ObjectHideFlags: 0

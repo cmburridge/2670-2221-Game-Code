@@ -16,7 +16,9 @@ public class DamageBehavior : MonoBehaviour
     public FloatData deathCount;
     public UnityEngine.UI.Image healthBar;
     public bool canDamage = true;
-    public GameObject damageScreen;
+    public GameObject damageScreen, deadPrefab1, deadPrefab2, deadPrefab3, deadPrefab4;
+    
+    public BoolData keyCollected, speedCollected, jumpCollected, hpCollected;
 
     private void Start()
     {
@@ -32,7 +34,6 @@ public class DamageBehavior : MonoBehaviour
 
     public void HealthUpdate()
     {
-        healthBar.fillAmount = maxHealth.value;
         currentHealth.value = maxHealth.value;
     }
 
@@ -58,9 +59,18 @@ public class DamageBehavior : MonoBehaviour
 
     private void Update()
     {
+        healthBar.fillAmount = currentHealth.value;
+        
         if (currentHealth.value <= 0)
         {
-            
+            Instantiate(deadPrefab1, transform.position, Quaternion.identity);
+            Instantiate(deadPrefab2, transform.position, Quaternion.identity);
+            Instantiate(deadPrefab3, transform.position, Quaternion.identity);
+            Instantiate(deadPrefab4, transform.position, Quaternion.identity);
+            keyCollected.isTrue = false;
+            speedCollected.isTrue = false;
+            hpCollected.isTrue = false;
+            jumpCollected.isTrue = false;
             deathCount.value += 1;
             canDamage = true;
             gameObject.SetActive(false);

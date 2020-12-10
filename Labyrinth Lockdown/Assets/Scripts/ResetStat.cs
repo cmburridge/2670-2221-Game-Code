@@ -10,7 +10,7 @@ public class ResetStat : MonoBehaviour
     public BoolData keyCollected, speedCollected, jumpCollected, hpCollected;
     public GameObject keyImage, speedImage, jumpImage, hpImage;
     public GameObject dialogue;
-    private static bool gameIsPaused = false;
+    public static bool gameIsPaused = false;
     public Text text;
     public string npcDialogue;
     

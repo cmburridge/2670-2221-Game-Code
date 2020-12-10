@@ -32,9 +32,9 @@
           <e p="DeathCOunt.cs" t="Include" />
           <e p="DialogueBehavior.cs" t="Include" />
           <e p="EnemyAi.cs" t="Include" />
-          <e p="FloatBehaviors.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
           <e p="InstanceBehavior.cs" t="Include" />
-          <e p="IntBehaviors.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="IsActiveBehavior.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PowerUpTracker.cs" t="Include" />

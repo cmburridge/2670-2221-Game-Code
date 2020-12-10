@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DialogueBehavior : MonoBehaviour
 {
-    private static bool gameIsPaused = false;
+    public static bool gameIsPaused = false;
     public Text text;
     public string npcDialogue;
     

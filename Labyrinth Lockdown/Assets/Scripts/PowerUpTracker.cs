@@ -10,13 +10,8 @@ public class PowerUpTracker : MonoBehaviour
     public BoolData keyCollected, speedCollected, jumpCollected, hpCollected;
     public GameObject keyImage, speedImage, jumpImage, hpImage;
 
-    private void FixedUpdate()
+    private void Start()
     {
-        if (keyCollected.isTrue == true)
-        {
-            Instantiate(keyImage);
-        }
-
         if (speedCollected.isTrue == true)
         {
             Instantiate(speedImage);
@@ -30,6 +25,40 @@ public class PowerUpTracker : MonoBehaviour
         if (hpCollected.isTrue == true)
         {
             Instantiate(hpImage);
+        }
+    }
+
+    public void RestartStats()
+    {
+        keyCollected.isTrue = false;
+        speedCollected.isTrue = false;
+        hpCollected.isTrue = false;
+        jumpCollected.isTrue = false;
+    }
+
+    public void SpawnIcon()
+    {
+        if (speedCollected.isTrue == true)
+        {
+            Instantiate(speedImage);
+        }
+        
+        if (jumpCollected.isTrue == true)
+        {
+            Instantiate(jumpImage);
+        }
+        
+        if (hpCollected.isTrue == true)
+        {
+            Instantiate(hpImage);
+        }
+    }
+
+    public void SpawnKey()
+    {
+        if (keyCollected.isTrue == true)
+        {
+            Instantiate(keyImage);
         }
     }
 }

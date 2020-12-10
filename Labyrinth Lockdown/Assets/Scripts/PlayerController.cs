@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
             playerJumpCount.value = 0;
         }
 
-        if (controller.isGrounded)
+        if (controller.isGrounded && playerJumpCount.value == 0)
         {
             playerJumpCount.value = 1;
         }
@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
 
         if (controller.isGrounded && velocity.y < 0)
         {
-            velocity.y = -2f;
+            velocity.y = -.5f;
         }
 
         if (Input.GetButtonDown("Jump") && playerJumpCount.value == 1)
