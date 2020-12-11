@@ -1,36 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="">
+    <list default="true" id="522a87bb-9dd5-438b-8d63-80a8d46858c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jump Double Jump/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jump Double Jump/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jump Double Jump/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jump Double Jump/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jump Double Jump/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jump Double Jump/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jump Double Jump/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jump Double Jump/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Labyrinth Lockdown/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/HealthUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/HealthUp Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/JumpUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/JumpUp Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/NPC.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/NPC.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Patrol.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Patrol.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/SpeedUp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/SpeedUp Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/End.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 5/NavMesh.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 5/NavMesh.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatBehaviors.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatBehaviors.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/CurrentHP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/CurrentHP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/CurrentSPD.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/CurrentSPD.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/DeathCount.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/DeathCount.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/EnemyDMG.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/EnemyDMG.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/JumpHeight.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/JumpHeight.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/MaxHP.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/MaxHP.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/MoveSpd.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/MoveSpd.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/Timer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatDatas/Timer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntBehaviors.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntBehaviors.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,77 +35,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CountDownActivater.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Behavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/QuickOutline/Scripts/Outline.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CheckDestroy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RandomInstantiate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoolData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WanderAI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FloatDatas/DeathCount.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Gaurd.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Triggers.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DeathCOunt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Bullet.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefab/NPC.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Tutorial.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../2019.3.14f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefab/Exit.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Material/AlwaysVisible.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AtatchOnTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LookAtBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Transform Behavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransformBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RestartBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ValueBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ValueEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Triggers.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/IsActiveBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BoolData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DeathCOunt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WanderAI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy Ai.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SelfDestruct.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManagerBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ActivateBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/ActivateEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/DialogueBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/ScreenDamage.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAi.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CountDownActivater.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RandomInstantiate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CheckDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FloatBehaviors.cs" />
-        <option value="$PROJECT_DIR$/Assets/FindPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpTracker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DamageBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DialogueBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ResetStat.cs" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1jWYh3VrIBk7BiW5dTxD7rsUSCY" />
+  <component name="ProjectId" id="1lTUviVS42bZW57qrWtlEEnXLiL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -153,39 +81,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cd817c74-6f5b-4e96-bf06-05dd5aaee8f6" name="Default Changelist" comment="" />
-      <created>1603921433906</created>
+      <changelist id="522a87bb-9dd5-438b-8d63-80a8d46858c6" name="Default Changelist" comment="" />
+      <created>1607620808813</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603921433906</updated>
-      <workItem from="1603921448173" duration="1854000" />
-      <workItem from="1604021933907" duration="1865000" />
-      <workItem from="1604029271997" duration="1476000" />
-      <workItem from="1604097037433" duration="591000" />
-      <workItem from="1604101265238" duration="3441000" />
-      <workItem from="1604179214421" duration="2272000" />
-      <workItem from="1604330903990" duration="1385000" />
-      <workItem from="1604349945643" duration="2689000" />
-      <workItem from="1604366389372" duration="616000" />
-      <workItem from="1604520566130" duration="4009000" />
-      <workItem from="1605071871906" duration="3341000" />
-      <workItem from="1605155796317" duration="1203000" />
-      <workItem from="1605220064567" duration="3525000" />
-      <workItem from="1605321899433" duration="599000" />
-      <workItem from="1605398503175" duration="6052000" />
-      <workItem from="1605484056920" duration="6303000" />
-      <workItem from="1605546670884" duration="9131000" />
-      <workItem from="1605660189516" duration="10382000" />
-      <workItem from="1605731250032" duration="8989000" />
-      <workItem from="1606068323944" duration="24065000" />
-      <workItem from="1606109753352" duration="2139000" />
-      <workItem from="1606181714050" duration="6819000" />
-      <workItem from="1606276453573" duration="1578000" />
-      <workItem from="1606973953269" duration="1199000" />
-      <workItem from="1607140422832" duration="6542000" />
-      <workItem from="1607321005376" duration="1198000" />
-      <workItem from="1607372647718" duration="12411000" />
-      <workItem from="1607542282584" duration="9717000" />
+      <updated>1607620808813</updated>
+      <workItem from="1607620816910" duration="1413000" />
     </task>
     <servers />
   </component>
@@ -199,9 +100,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
