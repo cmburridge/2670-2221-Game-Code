@@ -47,6 +47,7 @@ MonoBehaviour:
   speedCollected: {fileID: 11400000, guid: 1d2ddf790fbeb87428358b1d96e9fd1e, type: 2}
   jumpCollected: {fileID: 11400000, guid: 760aefc4873805441aa4a115577993c3, type: 2}
   hpCollected: {fileID: 11400000, guid: 56b8cf7c513aa724cbcad7ed59a47b7f, type: 2}
+  secret: {fileID: 11400000, guid: bf359c9ea703bd64ba9b49d6ef11ed40, type: 2}
   keyImage: {fileID: 5702875032527327754, guid: d2814dc71c60f2543af9fdb54198797f,
     type: 3}
   speedImage: {fileID: 5151816808835216656, guid: 06adba3fc7a379f4b8b252b14cf00349,
@@ -54,3 +55,5 @@ MonoBehaviour:
   jumpImage: {fileID: 3187780201434918972, guid: 33442ec35d2d15547b6093b5b700e72c,
     type: 3}
   hpImage: {fileID: 7743273287270231577, guid: fac91aee36038764a8d6a07e12a3c65f, type: 3}
+  secretImage: {fileID: 9017186202455643257, guid: 4dffcc90bf897a44291feaf9d8be564e,
+    type: 3}

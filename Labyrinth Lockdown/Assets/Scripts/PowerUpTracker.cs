@@ -7,8 +7,8 @@ using Image = UnityEngine.UIElements.Image;
 
 public class PowerUpTracker : MonoBehaviour
 {
-    public BoolData keyCollected, speedCollected, jumpCollected, hpCollected;
-    public GameObject keyImage, speedImage, jumpImage, hpImage;
+    public BoolData keyCollected, speedCollected, jumpCollected, hpCollected, secret;
+    public GameObject keyImage, speedImage, jumpImage, hpImage, secretImage;
 
     private void Start()
     {
@@ -25,6 +25,11 @@ public class PowerUpTracker : MonoBehaviour
         if (hpCollected.isTrue == true)
         {
             Instantiate(hpImage);
+        }
+        
+        if (secret.isTrue == true)
+        {
+            Instantiate(secretImage);
         }
     }
 
@@ -51,6 +56,11 @@ public class PowerUpTracker : MonoBehaviour
         if (hpCollected.isTrue == true)
         {
             Instantiate(hpImage);
+        }
+        
+        if (secret.isTrue == true)
+        {
+            Instantiate(secretImage);
         }
     }
 

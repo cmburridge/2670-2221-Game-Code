@@ -26,12 +26,16 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("working");
+        
         var hInput = Input.GetAxis("Horizontal") * moveSpeed.value * Time.deltaTime;
         var vInput = Input.GetAxis("Vertical") * moveSpeed.value * Time.deltaTime;
 
-        movement.Set(hInput, 0, newZ: vInput);
+        movement.Set(hInput, 0, vInput);
 
         lookDirection.Set(hInput, 0, vInput);
+        
+        Debug.Log("working2");
         
         if (hInput > 0.0001f || hInput < -0.00001f || vInput > 0.00001f || vInput < -0.00001f)
         {
@@ -42,7 +46,9 @@ public class PlayerController : MonoBehaviour
         {
             lookDirection.Set(0.0001f * Time.deltaTime, 0, 0.0001f * Time.deltaTime);
         }
-
+        
+        Debug.Log("working3");
+        
         if (!controller.isGrounded)
         {
             transform.parent = null;
@@ -54,6 +60,8 @@ public class PlayerController : MonoBehaviour
             playerJumpCount.value = 1;
         }
         
+        Debug.Log("working4");
+        
         controller.Move(movement);
         
         controller.Move(movement * Time.deltaTime);
@@ -62,14 +70,21 @@ public class PlayerController : MonoBehaviour
         {
             velocity.y = -.5f;
         }
-
+        
+        Debug.Log("working5");
+        
         if (Input.GetButtonDown("Jump") && playerJumpCount.value == 1)
         {
+            Debug.Log("Jumpworking");
             velocity.y = Mathf.Sqrt(jumpHeight.value * -2f * gravity);
         }
-
+        
+        Debug.Log("working6");
+        
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+        
+        Debug.Log("working7");
     }
 }
